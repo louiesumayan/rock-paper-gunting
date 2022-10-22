@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-warning">
+      <div class="container">
+        <a class="navbar-brand" href="about.html"
+          >ONLINE <span class="logo-color">CONVERTER</span>
+        </a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-uppercase"
+                href="about.html"
+                aria-current="page"
+                >About <span class="visually-hidden">(current)</span></a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-uppercase"
+                href="#"
+                id="dropdownId"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Converter</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="./OnlineCalc/index.html"
+                  >Simple calculator</a
+                >
+                <a class="dropdown-item" href="#">Celsius to Fahrenheit</a>
+                <a class="dropdown-item" href="./speedconverter.html"
+                  >Speed Converter</a
+                >
+                <a class="dropdown-item" href="./rock,paper,gunting/index.html"
+                  >Rock, Paper, Gunting</a
+                >
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex my-2 my-lg-0">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-louie my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="flex">
+      <h1>Rock Paper Scissors</h1>
+
+      <h3>First To 5 Wins!</h3>
+
+      <div class="optionBtn">
+        <button class="rock" id="0">🗿</button>
+        <button class="paper" id="1">📄</button>
+        <button class="gunting" id="2">✂️</button>
+      </div>
+
+      <div class="labels">
+        <span id="playerLabel">Player </span>
+        <span id="compLabel">Computer </span>
+      </div>
+
+      <div class="scores">
+        <div id="playerScore"></div>
+        <div id="computerScore"></div>
+      </div>
+
+      <div><span id="resultsLabel">Results</span></div>
+
+      <div id="roundResults"></div>
+
+      <div>
+        <button class="play" id="reset">Play Again!</button>
+      </div>
+    </div>
+
+    <footer class="page-footer mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">
+              Additional Information
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              interdum quam odio, quis placerat ante luctus eu. Sed aliquet
+              dolor id sapien rutrum, id vulputate quam iaculis.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              interdum quam odio, quis placerat ante luctus eu. Sed aliquet
+              dolor id sapien rutrum, id vulputate quam iaculis.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">Contact</h6>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur.
+
+              <br />
+
+              <br />+ 01 234 567 88
+
+              <br />+ 01 234 567 89
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center">© 2022 louie pogi</div>
+    </footer>
+  </body>
+  <script src="javascript.js"></script>
+</html>
